@@ -1,0 +1,101 @@
+#leftside-nav-bar{
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #565656; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+#menu-left-side {
+  padding:5px;
+}
+#menu-left-side a:hover{
+  background-color: white;
+}
+#leftside-nav-bar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+#leftside-nav-bar a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+    background-color:#666666;
+}
+
+.left-button-nav{
+  background-color:#565656;
+  color: white;
+  width: 265px;
+}
+
+.left-button-nav p{
+  font-size: 10px;
+}
+.col-xs-1{
+  padding-right: 2px;
+}
+.middle{
+  height:100%;
+}
+
+.middle-header-icon{
+  padding-top: 13px;
+  font-size: 17px;
+}
+
+.header{
+  height:45px;
+  margin-left: -10px;
+  background-color:#4d9cd7;
+  color: white;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding-left: 20px;
+}
+
+#footer{
+  text-align: center;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+a:hover{
+    text-decoration: none;
+}
+
+.info-status{
+  width:100%;
+  padding:20px;
+  border-radius: 25px;
+  background-color: green;
+  color:white;
+}
+
+
+/*glyphicon-align-justify{
+  font-size: 25px;
+  margin-right: 250px;
+}
+.glyphicon-align-justify:hover{
+  background-color: #F2F2F2;
+}*/

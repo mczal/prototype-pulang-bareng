@@ -1,0 +1,76 @@
+.table td{
+  text-align: center;
+  color:black;
+}
+
+.table th{
+  text-align: center;
+  color:black;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-warning {
+  background: #FF5400;
+}
+
+.btn-primary {
+  background: #068AC9;
+}
+
+.btn-success {
+  background: #45B433;
+}
+
+.btn-outline-default {
+  background: none;
+  font-weight: 800;
+  border: 1px solid #777;
+  color: #777;
+}
+
+.btn-outline-primary {
+  background: none;
+  font-weight: 800;
+  border: 1px solid #068AC9;
+  color: #068AC9;
+}
+
+.btn-outline-success {
+  background: none;
+  font-weight: 800;
+  border: 1px solid #36B249;
+  color: #36B249;
+}
+
+.btn-outline-info {
+  background: none;
+  font-weight: 800;
+  border: 1px solid #5BC0DE;
+  color: #5BC0DE;
+}
+
+.btn-outline-warning {
+  background: none;
+  font-weight: 800;
+  border: 1px solid #FF5400;
+  color: #FF5400;
+}
+
+.btn-outline-danger {
+  background: none;
+  font-weight: 800;
+  border: 1px solid #D9534F;
+  color: #D9534F;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}

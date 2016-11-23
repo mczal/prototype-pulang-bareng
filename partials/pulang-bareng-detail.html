@@ -1,0 +1,121 @@
+<link rel="stylesheet" href="assets/css/pulang-bareng.css">
+<link rel="stylesheet" href="bower_components/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+<a style="width: 100px;" class="btn btn-primary" href="#/pulang-bareng" role="button" ><i>HOT HOUR</i></a><a style="width: 100px;" class="btn btn-default" href="#/pulang-bareng-room" role="button">ROOM</a>
+<div class="landing-pulang-bareng">
+  <div class="row">
+    <br>
+    <p>
+      Choose your pinpoint :
+    </p>
+    <img src="assets/img/MAP/DagoModif.PNG" alt="" width="340px" height="250px" />
+    <hr>
+  </div>
+    <div class="box box-solid">
+      <div class="box-header">
+          <h3 class="box-title">General</h3>
+      </div>
+      <div class="box-body text-left">
+          <!-- Ticket Code -->
+          <div class="row">
+              <div class="form-group">
+                  <label for="ticket-code" class="col-sm-2 control-label">Room</label>
+
+                  <div class="col-sm-6">
+                      1
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <!-- SIGNATURE -->
+          <div class="row">
+              <div class="form-group">
+                  <label for="order-signature" class="col-sm-2 control-label">Route</label>
+
+                  <div class="col-sm-6">
+                    Ciumbuleuit <i class="glyphicon glyphicon-chevron-right"></i> DagoPakar <i class="glyphicon glyphicon-chevron-right"></i> Dago <i class="glyphicon glyphicon-chevron-right"></i> Dipatiukur <i class="glyphicon glyphicon-chevron-right"></i> Gedung Sate  <i class="glyphicon glyphicon-chevron-right"></i> KOPO <i class="glyphicon glyphicon-chevron-right"></i> UNPAR
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <!-- Ticket order id -->
+          <div class="row">
+              <div class="form-group">
+                  <label for="ticket-order-id" class="col-sm-2 control-label">Hours</label>
+
+                  <div class="col-sm-5">
+                    <ul>
+                      <li>Start from UNPAR at 23.45</li>
+                      <li>Arrived in Checkpoint 1 at 00.15</li>
+                      <li>Arrived in Checkpoint 2 at 00.45</li>
+                      <li>...</li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <!-- Ticket type id -->
+          <div class="row">
+              <div class="form-group">
+                  <label for="ticket-type-id" class="col-sm-2 control-label">Participant</label>
+                  <div class="col-sm-3">
+                      5
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <!-- Ticket order date -->
+          <div class="row">
+              <div class="form-group">
+                  <label for="ticket-order-date" class="col-sm-2 control-label">Knights</label>
+                  <div class="col-sm-3">
+                    3
+                  </div>
+              </div>
+          </div>
+
+          <!-- Ticket active date -->
+          <div class="row">
+              <div class="form-group">
+                  <label for="ticket-active-date" class="col-sm-2 control-label">Price</label>
+                  <div class="col-sm-3">
+                    Rp. 5.000,00/person
+                  </div>
+
+              </div>
+          </div>
+
+          <!-- Ticket check in date -->
+          <br>
+          <div class="row">
+              <div class="form-group">
+                  <label for="ticket-check-in-date" class="col-sm-2 control-label"></label>
+                  <div style="text-align:center;" class="col-sm-3 col-sm-12 col-md-7 col-md-12">
+                    <button class="btn btn-success" href="#" ng-click="joinNow()">JOIN</button>
+                  </div>
+              </div>
+          </div>
+          <hr/>
+          <!-- IS THE RATING SYST  -->
+
+
+
+          <!-- Control -->
+          <div class="row">
+              <div class="form-group">
+                  <div class="col-sm-6 col-sm-offset-2">
+                    <script src="bower_components/jquery-bar-rating/dist/jquery.barrating.min.js"></script>
+                    <script type="text/javascript">
+                       $(function() {
+                          $('#example').barrating({
+                            theme: 'fontawesome-stars'
+                          });
+                       });
+                    </script>
+                    <button type="button" class="btn btn-primary" ng-click="rate()">RATING!</button>
+                  </div>
+              </div>
+          </div>
+      </div><!-- /.box-body -->
+  </div>
+
+</div>
