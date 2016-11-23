@@ -193,3 +193,10 @@ securityController.controller('landingFriendAddController.ctrl',['$scope', '$rou
 		console.log('landingFriendAddController.ctrl');
 	}
 ]);
+
+securityController.controller('pulangBarengHomeController.ctrl',['$scope', '$routeParams', '$http',
+	function($scope,$routeParams,$http){
+		$scope.pageHeader = "\"Home\"";
+		console.log('pulangBarengHomeController.ctrl');
+	}
+]);

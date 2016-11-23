@@ -85,7 +85,11 @@ beirutApp.config(['$routeProvider','$locationProvider','$httpProvider',
         'templateUrl': 'partials/landing-friend-add.html',
         'controller': 'landingFriendAddController.ctrl'
       }).
+	  when('/pulang-bareng-home', {
+        'templateUrl': 'partials/pulang-bareng-home.html',
+        'controller': 'pulangBarengHomeController.ctrl'
+      }).
       otherwise({
-        'redirectTo': '/pulang-bareng'
+        'redirectTo': '/pulang-bareng-home'
       });
     }]);
